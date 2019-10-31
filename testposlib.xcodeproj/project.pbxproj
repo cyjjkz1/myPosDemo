@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC844D20236A913B000270B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D1F236A913B000270B0 /* AppDelegate.m */; };
+		DC844D28236A913D000270B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC844D27236A913D000270B0 /* Assets.xcassets */; };
+		DC844D2B236A913D000270B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC844D29236A913D000270B0 /* LaunchScreen.storyboard */; };
+		DC844D2E236A913D000270B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D2D236A913D000270B0 /* main.m */; };
+		DC844D61236A92A4000270B0 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844D57236A92A3000270B0 /* libcrypto.a */; };
+		DC844D62236A92A4000270B0 /* libXLPosManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844D59236A92A3000270B0 /* libXLPosManager.a */; };
+		DC844D63236A92A4000270B0 /* libqpos-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844D5A236A92A3000270B0 /* libqpos-ios-sdk.a */; };
+		DC844D64236A92A4000270B0 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844D5C236A92A3000270B0 /* libssl.a */; };
+		DC844D97236A93B0000270B0 /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D6B236A93B0000270B0 /* UIResponder+FirstResponder.m */; };
+		DC844D98236A93B0000270B0 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D6D236A93B0000270B0 /* UIImage+ImageWithColor.m */; };
+		DC844D99236A93B0000270B0 /* XLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D70236A93B0000270B0 /* XLMainViewController.m */; };
+		DC844D9A236A93B0000270B0 /* XLTerminalSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D75236A93B0000270B0 /* XLTerminalSettingController.m */; };
+		DC844D9B236A93B0000270B0 /* XLManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D76236A93B0000270B0 /* XLManageViewController.m */; };
+		DC844D9C236A93B0000270B0 /* XLDeviceInitializeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D77236A93B0000270B0 /* XLDeviceInitializeController.m */; };
+		DC844D9D236A93B0000270B0 /* button_view_close.png in Resources */ = {isa = PBXBuildFile; fileRef = DC844D7A236A93B0000270B0 /* button_view_close.png */; };
+		DC844D9E236A93B0000270B0 /* button_backspace_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC844D7B236A93B0000270B0 /* button_backspace_delete@3x.png */; };
+		DC844D9F236A93B0000270B0 /* button_backspace_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC844D7C236A93B0000270B0 /* button_backspace_delete@2x.png */; };
+		DC844DA1236A93B0000270B0 /* XLStatusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D7F236A93B0000270B0 /* XLStatusButton.m */; };
+		DC844DA2236A93B0000270B0 /* XLConsumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D80236A93B0000270B0 /* XLConsumeViewController.m */; };
+		DC844DA3236A93B0000270B0 /* BlueToothDevController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D81236A93B0000270B0 /* BlueToothDevController.m */; };
+		DC844DA4236A93B0000270B0 /* XLSignSureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D82236A93B0000270B0 /* XLSignSureViewController.m */; };
+		DC844DA5236A93B0000270B0 /* XLPayKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D83236A93B0000270B0 /* XLPayKeyboardView.m */; };
+		DC844DA6236A93B0000270B0 /* XLSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D87236A93B0000270B0 /* XLSignViewController.m */; };
+		DC844DA7236A93B0000270B0 /* TradingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D88236A93B0000270B0 /* TradingTools.m */; };
+		DC844DA8236A93B0000270B0 /* ReturnGoodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D89236A93B0000270B0 /* ReturnGoodsController.m */; };
+		DC844DA9236A93B0000270B0 /* XLUndoOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D8C236A93B0000270B0 /* XLUndoOrderViewController.m */; };
+		DC844DAA236A93B0000270B0 /* XLTradingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D8D236A93B0000270B0 /* XLTradingViewController.m */; };
+		DC844DAB236A93B0000270B0 /* XLBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D94236A93B0000270B0 /* XLBalanceViewController.m */; };
+		DC844DAC236A93B0000270B0 /* BlueToothProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC844D95236A93B0000270B0 /* BlueToothProgressVC.m */; };
+		DC844ED0236A9765000270B0 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844ECF236A9765000270B0 /* libxml2.tbd */; };
+		DC844ED2236A976D000270B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844ED1236A976D000270B0 /* Security.framework */; };
+		DC844ED4236A977A000270B0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC844ED3236A977A000270B0 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC844D1B236A913B000270B0 /* testposlib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testposlib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC844D1E236A913B000270B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC844D1F236A913B000270B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC844D27236A913D000270B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC844D2A236A913D000270B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC844D2C236A913D000270B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC844D2D236A913D000270B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC844D57236A92A3000270B0 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		DC844D58236A92A3000270B0 /* XLPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPayManager.h; sourceTree = "<group>"; };
+		DC844D59236A92A3000270B0 /* libXLPosManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXLPosManager.a; sourceTree = "<group>"; };
+		DC844D5A236A92A3000270B0 /* libqpos-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libqpos-ios-sdk.a"; sourceTree = "<group>"; };
+		DC844D5B236A92A3000270B0 /* XLPOSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPOSManager.h; sourceTree = "<group>"; };
+		DC844D5C236A92A3000270B0 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		DC844D5D236A92A3000270B0 /* XLResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLResponseModel.h; sourceTree = "<group>"; };
+		DC844D5E236A92A3000270B0 /* XLAuthPublicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAuthPublicModel.h; sourceTree = "<group>"; };
+		DC844D5F236A92A3000270B0 /* XLConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLConfigManager.h; sourceTree = "<group>"; };
+		DC844D60236A92A3000270B0 /* XLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLKit.h; sourceTree = "<group>"; };
+		DC844D6A236A93B0000270B0 /* EasyUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyUIDefine.h; sourceTree = "<group>"; };
+		DC844D6B236A93B0000270B0 /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
+		DC844D6C236A93B0000270B0 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		DC844D6D236A93B0000270B0 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		DC844D6E236A93B0000270B0 /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
+		DC844D70236A93B0000270B0 /* XLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMainViewController.m; sourceTree = "<group>"; };
+		DC844D72236A93B0000270B0 /* XLManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLManageViewController.h; sourceTree = "<group>"; };
+		DC844D73236A93B0000270B0 /* XLTerminalSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTerminalSettingController.h; sourceTree = "<group>"; };
+		DC844D74236A93B0000270B0 /* XLDeviceInitializeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDeviceInitializeController.h; sourceTree = "<group>"; };
+		DC844D75236A93B0000270B0 /* XLTerminalSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTerminalSettingController.m; sourceTree = "<group>"; };
+		DC844D76236A93B0000270B0 /* XLManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLManageViewController.m; sourceTree = "<group>"; };
+		DC844D77236A93B0000270B0 /* XLDeviceInitializeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDeviceInitializeController.m; sourceTree = "<group>"; };
+		DC844D78236A93B0000270B0 /* XLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMainViewController.h; sourceTree = "<group>"; };
+		DC844D7A236A93B0000270B0 /* button_view_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_view_close.png; sourceTree = "<group>"; };
+		DC844D7B236A93B0000270B0 /* button_backspace_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_backspace_delete@3x.png"; sourceTree = "<group>"; };
+		DC844D7C236A93B0000270B0 /* button_backspace_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_backspace_delete@2x.png"; sourceTree = "<group>"; };
+		DC844D7F236A93B0000270B0 /* XLStatusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLStatusButton.m; sourceTree = "<group>"; };
+		DC844D80236A93B0000270B0 /* XLConsumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLConsumeViewController.m; sourceTree = "<group>"; };
+		DC844D81236A93B0000270B0 /* BlueToothDevController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothDevController.m; sourceTree = "<group>"; };
+		DC844D82236A93B0000270B0 /* XLSignSureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSignSureViewController.m; sourceTree = "<group>"; };
+		DC844D83236A93B0000270B0 /* XLPayKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPayKeyboardView.m; sourceTree = "<group>"; };
+		DC844D84236A93B0000270B0 /* XLTradingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTradingViewController.h; sourceTree = "<group>"; };
+		DC844D85236A93B0000270B0 /* XLUndoOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLUndoOrderViewController.h; sourceTree = "<group>"; };
+		DC844D86236A93B0000270B0 /* XLBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBalanceViewController.h; sourceTree = "<group>"; };
+		DC844D87236A93B0000270B0 /* XLSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSignViewController.m; sourceTree = "<group>"; };
+		DC844D88236A93B0000270B0 /* TradingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingTools.m; sourceTree = "<group>"; };
+		DC844D89236A93B0000270B0 /* ReturnGoodsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnGoodsController.m; sourceTree = "<group>"; };
+		DC844D8A236A93B0000270B0 /* BlueToothProgressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothProgressVC.h; sourceTree = "<group>"; };
+		DC844D8B236A93B0000270B0 /* XLStatusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLStatusButton.h; sourceTree = "<group>"; };
+		DC844D8C236A93B0000270B0 /* XLUndoOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLUndoOrderViewController.m; sourceTree = "<group>"; };
+		DC844D8D236A93B0000270B0 /* XLTradingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTradingViewController.m; sourceTree = "<group>"; };
+		DC844D8E236A93B0000270B0 /* XLSignSureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSignSureViewController.h; sourceTree = "<group>"; };
+		DC844D8F236A93B0000270B0 /* XLPayKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPayKeyboardView.h; sourceTree = "<group>"; };
+		DC844D90236A93B0000270B0 /* BlueToothDevController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothDevController.h; sourceTree = "<group>"; };
+		DC844D91236A93B0000270B0 /* XLConsumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLConsumeViewController.h; sourceTree = "<group>"; };
+		DC844D92236A93B0000270B0 /* TradingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingTools.h; sourceTree = "<group>"; };
+		DC844D93236A93B0000270B0 /* XLSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSignViewController.h; sourceTree = "<group>"; };
+		DC844D94236A93B0000270B0 /* XLBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBalanceViewController.m; sourceTree = "<group>"; };
+		DC844D95236A93B0000270B0 /* BlueToothProgressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothProgressVC.m; sourceTree = "<group>"; };
+		DC844D96236A93B0000270B0 /* ReturnGoodsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnGoodsController.h; sourceTree = "<group>"; };
+		DC844ECF236A9765000270B0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		DC844ED1236A976D000270B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DC844ED3236A977A000270B0 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC844D18236A913B000270B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC844ED4236A977A000270B0 /* CoreBluetooth.framework in Frameworks */,
+				DC844ED2236A976D000270B0 /* Security.framework in Frameworks */,
+				DC844ED0236A9765000270B0 /* libxml2.tbd in Frameworks */,
+				DC844D64236A92A4000270B0 /* libssl.a in Frameworks */,
+				DC844D63236A92A4000270B0 /* libqpos-ios-sdk.a in Frameworks */,
+				DC844D62236A92A4000270B0 /* libXLPosManager.a in Frameworks */,
+				DC844D61236A92A4000270B0 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC844D12236A913B000270B0 = {
+			isa = PBXGroup;
+			children = (
+				DC844D1D236A913B000270B0 /* testposlib */,
+				DC844D1C236A913B000270B0 /* Products */,
+				DC844ECE236A9765000270B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC844D1C236A913B000270B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D1B236A913B000270B0 /* testposlib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC844D1D236A913B000270B0 /* testposlib */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D68236A93B0000270B0 /* Mpos */,
+				DC844D56236A92A3000270B0 /* poslib */,
+				DC844D1E236A913B000270B0 /* AppDelegate.h */,
+				DC844D1F236A913B000270B0 /* AppDelegate.m */,
+				DC844D27236A913D000270B0 /* Assets.xcassets */,
+				DC844D29236A913D000270B0 /* LaunchScreen.storyboard */,
+				DC844D2C236A913D000270B0 /* Info.plist */,
+				DC844D2D236A913D000270B0 /* main.m */,
+			);
+			path = testposlib;
+			sourceTree = "<group>";
+		};
+		DC844D56236A92A3000270B0 /* poslib */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D57236A92A3000270B0 /* libcrypto.a */,
+				DC844D5C236A92A3000270B0 /* libssl.a */,
+				DC844D59236A92A3000270B0 /* libXLPosManager.a */,
+				DC844D5A236A92A3000270B0 /* libqpos-ios-sdk.a */,
+				DC844D58236A92A3000270B0 /* XLPayManager.h */,
+				DC844D5B236A92A3000270B0 /* XLPOSManager.h */,
+				DC844D5D236A92A3000270B0 /* XLResponseModel.h */,
+				DC844D5E236A92A3000270B0 /* XLAuthPublicModel.h */,
+				DC844D5F236A92A3000270B0 /* XLConfigManager.h */,
+				DC844D60236A92A3000270B0 /* XLKit.h */,
+			);
+			path = poslib;
+			sourceTree = "<group>";
+		};
+		DC844D68236A93B0000270B0 /* Mpos */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D69236A93B0000270B0 /* Tools */,
+				DC844D78236A93B0000270B0 /* XLMainViewController.h */,
+				DC844D70236A93B0000270B0 /* XLMainViewController.m */,
+				DC844D71236A93B0000270B0 /* Manager */,
+				DC844D79236A93B0000270B0 /* Resource */,
+				DC844D7E236A93B0000270B0 /* Trading */,
+			);
+			path = Mpos;
+			sourceTree = "<group>";
+		};
+		DC844D69236A93B0000270B0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D6A236A93B0000270B0 /* EasyUIDefine.h */,
+				DC844D6B236A93B0000270B0 /* UIResponder+FirstResponder.m */,
+				DC844D6C236A93B0000270B0 /* UIImage+ImageWithColor.h */,
+				DC844D6D236A93B0000270B0 /* UIImage+ImageWithColor.m */,
+				DC844D6E236A93B0000270B0 /* UIResponder+FirstResponder.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DC844D71236A93B0000270B0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D72236A93B0000270B0 /* XLManageViewController.h */,
+				DC844D76236A93B0000270B0 /* XLManageViewController.m */,
+				DC844D73236A93B0000270B0 /* XLTerminalSettingController.h */,
+				DC844D74236A93B0000270B0 /* XLDeviceInitializeController.h */,
+				DC844D75236A93B0000270B0 /* XLTerminalSettingController.m */,
+				DC844D77236A93B0000270B0 /* XLDeviceInitializeController.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DC844D79236A93B0000270B0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D7A236A93B0000270B0 /* button_view_close.png */,
+				DC844D7B236A93B0000270B0 /* button_backspace_delete@3x.png */,
+				DC844D7C236A93B0000270B0 /* button_backspace_delete@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DC844D7E236A93B0000270B0 /* Trading */ = {
+			isa = PBXGroup;
+			children = (
+				DC844D7F236A93B0000270B0 /* XLStatusButton.m */,
+				DC844D80236A93B0000270B0 /* XLConsumeViewController.m */,
+				DC844D81236A93B0000270B0 /* BlueToothDevController.m */,
+				DC844D82236A93B0000270B0 /* XLSignSureViewController.m */,
+				DC844D83236A93B0000270B0 /* XLPayKeyboardView.m */,
+				DC844D84236A93B0000270B0 /* XLTradingViewController.h */,
+				DC844D85236A93B0000270B0 /* XLUndoOrderViewController.h */,
+				DC844D86236A93B0000270B0 /* XLBalanceViewController.h */,
+				DC844D87236A93B0000270B0 /* XLSignViewController.m */,
+				DC844D88236A93B0000270B0 /* TradingTools.m */,
+				DC844D89236A93B0000270B0 /* ReturnGoodsController.m */,
+				DC844D8A236A93B0000270B0 /* BlueToothProgressVC.h */,
+				DC844D8B236A93B0000270B0 /* XLStatusButton.h */,
+				DC844D8C236A93B0000270B0 /* XLUndoOrderViewController.m */,
+				DC844D8D236A93B0000270B0 /* XLTradingViewController.m */,
+				DC844D8E236A93B0000270B0 /* XLSignSureViewController.h */,
+				DC844D8F236A93B0000270B0 /* XLPayKeyboardView.h */,
+				DC844D90236A93B0000270B0 /* BlueToothDevController.h */,
+				DC844D91236A93B0000270B0 /* XLConsumeViewController.h */,
+				DC844D92236A93B0000270B0 /* TradingTools.h */,
+				DC844D93236A93B0000270B0 /* XLSignViewController.h */,
+				DC844D94236A93B0000270B0 /* XLBalanceViewController.m */,
+				DC844D95236A93B0000270B0 /* BlueToothProgressVC.m */,
+				DC844D96236A93B0000270B0 /* ReturnGoodsController.h */,
+			);
+			path = Trading;
+			sourceTree = "<group>";
+		};
+		DC844ECE236A9765000270B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC844ED3236A977A000270B0 /* CoreBluetooth.framework */,
+				DC844ED1236A976D000270B0 /* Security.framework */,
+				DC844ECF236A9765000270B0 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC844D1A236A913B000270B0 /* testposlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC844D31236A913D000270B0 /* Build configuration list for PBXNativeTarget "testposlib" */;
+			buildPhases = (
+				DC844D17236A913B000270B0 /* Sources */,
+				DC844D18236A913B000270B0 /* Frameworks */,
+				DC844D19236A913B000270B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testposlib;
+			productName = testposlib;
+			productReference = DC844D1B236A913B000270B0 /* testposlib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC844D13236A913B000270B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ccd;
+				TargetAttributes = {
+					DC844D1A236A913B000270B0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DC844D16236A913B000270B0 /* Build configuration list for PBXProject "testposlib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC844D12236A913B000270B0;
+			productRefGroup = DC844D1C236A913B000270B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC844D1A236A913B000270B0 /* testposlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC844D19236A913B000270B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC844D2B236A913D000270B0 /* LaunchScreen.storyboard in Resources */,
+				DC844D28236A913D000270B0 /* Assets.xcassets in Resources */,
+				DC844D9F236A93B0000270B0 /* button_backspace_delete@2x.png in Resources */,
+				DC844D9E236A93B0000270B0 /* button_backspace_delete@3x.png in Resources */,
+				DC844D9D236A93B0000270B0 /* button_view_close.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC844D17236A913B000270B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC844DA4236A93B0000270B0 /* XLSignSureViewController.m in Sources */,
+				DC844DA3236A93B0000270B0 /* BlueToothDevController.m in Sources */,
+				DC844DA7236A93B0000270B0 /* TradingTools.m in Sources */,
+				DC844DA2236A93B0000270B0 /* XLConsumeViewController.m in Sources */,
+				DC844D99236A93B0000270B0 /* XLMainViewController.m in Sources */,
+				DC844D2E236A913D000270B0 /* main.m in Sources */,
+				DC844DA6236A93B0000270B0 /* XLSignViewController.m in Sources */,
+				DC844DAA236A93B0000270B0 /* XLTradingViewController.m in Sources */,
+				DC844DAB236A93B0000270B0 /* XLBalanceViewController.m in Sources */,
+				DC844D9B236A93B0000270B0 /* XLManageViewController.m in Sources */,
+				DC844DAC236A93B0000270B0 /* BlueToothProgressVC.m in Sources */,
+				DC844D9C236A93B0000270B0 /* XLDeviceInitializeController.m in Sources */,
+				DC844DA5236A93B0000270B0 /* XLPayKeyboardView.m in Sources */,
+				DC844D9A236A93B0000270B0 /* XLTerminalSettingController.m in Sources */,
+				DC844D98236A93B0000270B0 /* UIImage+ImageWithColor.m in Sources */,
+				DC844DA9236A93B0000270B0 /* XLUndoOrderViewController.m in Sources */,
+				DC844DA1236A93B0000270B0 /* XLStatusButton.m in Sources */,
+				DC844D20236A913B000270B0 /* AppDelegate.m in Sources */,
+				DC844DA8236A93B0000270B0 /* ReturnGoodsController.m in Sources */,
+				DC844D97236A93B0000270B0 /* UIResponder+FirstResponder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC844D29236A913D000270B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC844D2A236A913D000270B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC844D2F236A913D000270B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC844D30236A913D000270B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC844D32236A913D000270B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = testposlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testposlib/poslib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfpay.quickpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = quickpay_dev_20181114;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC844D33236A913D000270B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 6XX8659PN2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = testposlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testposlib/poslib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qfpay.quickpay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = quickpay_dev_20181114;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC844D16236A913B000270B0 /* Build configuration list for PBXProject "testposlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC844D2F236A913D000270B0 /* Debug */,
+				DC844D30236A913D000270B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC844D31236A913D000270B0 /* Build configuration list for PBXNativeTarget "testposlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC844D32236A913D000270B0 /* Debug */,
+				DC844D33236A913D000270B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC844D13236A913B000270B0 /* Project object */;
+}
